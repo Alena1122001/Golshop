@@ -8,7 +8,7 @@
 
 venv\Scripts\activate.bat или venv\Scripts\activate.bat
 
-Установите psycopg2, Pillow, django, django-debug-toolbar
+Установите psycopg2, Pillow, django, django-debug-toolbar (если потребовалось)
 
 Внесите изменение в settings для БД (DATABASES)
 
@@ -16,6 +16,6 @@ venv\Scripts\activate.bat или venv\Scripts\activate.bat
 
 Запустить скрипты переноса данных в БД
 
-Запустите проект командой python manage.py runserver (или Ctrl+F5 для Visual Studio)
+Запустите проект командой python manage.py runserver
 
 Перейдите по адресу http://127.0.0.1:8000 - стартовая страница
